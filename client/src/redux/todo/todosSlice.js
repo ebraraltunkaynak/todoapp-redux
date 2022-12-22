@@ -82,15 +82,6 @@ export const selectFilteredTodos = (state) => {
   );
 };
 export const selectActiveFilter = (state) => state.todos.activeFilter;
-// export const selectTodos= (state) => state.todos.items;
-// export const selectFilteredTodos =  (state) => {
-//      if(state.todos.activeFilter === 'all' ) {
-//             return state.todos.items;
-//      }
-//      return state.todos.items.filter((todo) =>
 
-//         state.todos.ActiveFilter === 'active' ? todo.completed === true : todo.completed === false,
-//      );
-// };
 export  const {addTodo,toggle,destroy,changeActiveFilter,clearCompleted} = todosSlice.actions
 export default todosSlice.reducer;
