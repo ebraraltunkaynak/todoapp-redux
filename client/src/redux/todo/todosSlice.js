@@ -4,6 +4,8 @@ import axios from 'axios';
 export const getTodosAsync = createAsyncThunk('todos/getTodosAsync',async () =>{
     const res = await axios('http://localhost:7000/todos')
    return res.data;
+
+   
 });
 
 export const todosSlice = createSlice({
