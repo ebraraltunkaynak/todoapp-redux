@@ -15,7 +15,7 @@ function ContentFooter() {
        <footer className="footer">
     <span className="todo-count">
       <strong>{itemsLeft}</strong>
-      item{itemsLeft > 1 && 's'} left 
+        item{itemsLeft > 1 && 's'}   left 
     </span>
     <ul className="filters">
       <li>
